@@ -7,6 +7,8 @@ let isAppRegistered = false;
 const { WeChat } = NativeModules;
 
 // Event emitter to dispatch request and response from WeChat.12211221212121122112212121
+//logggggggggg
+
 const emitter = new EventEmitter();
 
 DeviceEventEmitter.addListener('WeChat_Resp', resp => {
